@@ -14,7 +14,7 @@ import numpy as np
 
 import string
 #import matplotlib.pyplot as plt
-import seaborn as sns
+#import seaborn as sns
 from sklearn.feature_extraction.text import TfidfTransformer
 from sklearn.feature_extraction.text import TfidfVectorizer
 
@@ -29,16 +29,11 @@ import re
 
 from gensim.models import Word2Vec
 from gensim.models import KeyedVectors
-import pickle
+#import pickle
 
 from tqdm import tqdm
 import os
 
-import chart_studio
-from chart_studio import plotly
-import plotly.offline as offline
-import plotly.graph_objs as go
-#offline.init_notebook_mode()
 from collections import Counter
 
 from sklearn.preprocessing import OneHotEncoder
@@ -46,8 +41,7 @@ from sklearn.preprocessing import OneHotEncoder
 
 
 #import matplotlib.pyplot as plt
-import os
-import cv2
+
 from tensorflow.keras import optimizers
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
