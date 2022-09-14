@@ -4,40 +4,60 @@
 # In[78]:
 
 
-#get_ipython().run_line_magic('matplotlib', 'inline')
+%matplotlib inline
 import warnings
 warnings.filterwarnings("ignore")
 
-
+import sqlite3
 import pandas as pd
 import numpy as np
-
+import nltk
 import string
-
-
-
+import matplotlib.pyplot as plt
+import seaborn as sns
+from sklearn.feature_extraction.text import TfidfTransformer
+from sklearn.feature_extraction.text import TfidfVectorizer
 
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics import confusion_matrix
 from sklearn import metrics
 from sklearn.metrics import roc_curve, auc
+from nltk.stem.porter import PorterStemmer
 
+import re
 
+import string
+from nltk.corpus import stopwords
+from nltk.stem import PorterStemmer
+from nltk.stem.wordnet import WordNetLemmatizer
 
+from gensim.models import Word2Vec
+from gensim.models import KeyedVectors
+import pickle
 
+from tqdm import tqdm
+import os
 
-
-
+import chart_studio
+from chart_studio import plotly
+import plotly.offline as offline
+import plotly.graph_objs as go
+offline.init_notebook_mode()
 from collections import Counter
 
 from sklearn.preprocessing import OneHotEncoder
 
 
+
+import matplotlib.pyplot as plt
+import os
+import cv2
+from tensorflow.keras import optimizers
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
-
-from keras import models
-from keras import layers
+from tensorflow.keras.utils import to_categorical
+from tensorflow.keras import models
+from tensorflow.keras import layers
 from keras.preprocessing.image import ImageDataGenerator
 from keras.applications.vgg16 import VGG16
 import streamlit as st
