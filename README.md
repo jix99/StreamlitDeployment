@@ -2,6 +2,12 @@
 
 The live link for Part 2 : https://jix99-streamlitdeployment-nxtlabdeploy-model-30ihji.streamlitapp.com/
 
+# Part 1
+
+1.Write a regex to extract all the numbers with orange color background from the below text in italics.
+ {"orders":[{"id":1},{"id":2},{"id":3},{"id":4},{"id":5},{"id":6},{"id":7},{"id":8},{"id":9},{"id":10},{"id":11},{"id":648},{"id":649},{"id":650},{"id":651},{"id":652},   {"id":653}],"errors":[{"code":3,"message":"[PHP Warning #2] count(): Parameter must be an array or an object that implements Countable (153)"}]}
+
+
 # Part 2
  
 1. Problem Statement: Train a machine learning model (preferably with a neural network) that predicts the customer who is going to be checked in.
