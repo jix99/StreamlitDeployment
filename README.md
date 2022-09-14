@@ -26,14 +26,16 @@ The live link for Part 2 : https://jix99-streamlitdeployment-nxtlabdeploy-model-
 9. Uploaded the file in github.
 10. Login to streamlit cloud app and link the cloud with the github file and deploy the application, for more information refer: https://carpentries-incubator.github.io/python-interactive-data-visualizations/08-publish-your-app/index.html
 
-1. Write about any difficult problem that you solved. (According to us, difficult - is something which 90% of people would have only 10% probability in getting a similarly good solution). 
+
+
+a. Write about any difficult problem that you solved. (According to us, difficult - is something which 90% of people would have only 10% probability in getting a similarly good solution). 
 
 The most difficult problem I encountered was in my engineering career where I had enrolled in a hackathon conducted by my college. As an electronic engineer I was given a project to build a car which had to overcome several obstacles and we built the car using several sensors in order to detect and avoid the obstacles. Everything was going smooth until we found one major flaw in our design that our car was using an proximity sensor to detect the obstacle which worked perfectly for all the obstacles in a straight lane but the car had to climb an inclined plane at one part of the course, so when the car approached near the inclined plane, the car suddenly stopped because the car was interpreting the inclined plane as the obstacle so our whole aim was about to shatter, so as a team we all came up with different ideas to overcome it but none of it worked but at last I came with the plan to deploy two proximity sensors, one at the bottom and other at the top and configured it to hover through the inclined plane successfully.
 
 As far as the Data Science field is concerned, I have faced all the problems usually faced by beginners, as one has to transition from basic python programming to complex programming in ML and DL. After encountering errors it is very important to smartly search to tackle those errors and learn from the documentations.
 
 
-2. Explain back propagation and tell us how you handle a dataset if 4 out of 30 parameters have null values more than 40 percentage
+b. Explain back propagation and tell us how you handle a dataset if 4 out of 30 parameters have null values more than 40 percentage
 
 Back propagation:
 
