@@ -31,8 +31,8 @@ import re
 # from gensim.models import KeyedVectors
 #import pickle
 
-from tqdm import tqdm
-import os
+# from tqdm import tqdm
+# import os
 
 from collections import Counter
 
