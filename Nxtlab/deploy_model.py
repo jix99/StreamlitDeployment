@@ -4,7 +4,7 @@
 # In[78]:
 
 
-%matplotlib inline
+
 import warnings
 warnings.filterwarnings("ignore")
 
@@ -42,7 +42,7 @@ import chart_studio
 from chart_studio import plotly
 import plotly.offline as offline
 import plotly.graph_objs as go
-offline.init_notebook_mode()
+#offline.init_notebook_mode()
 from collections import Counter
 
 from sklearn.preprocessing import OneHotEncoder
