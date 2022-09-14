@@ -13,7 +13,7 @@ import pandas as pd
 import numpy as np
 
 import string
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.feature_extraction.text import TfidfTransformer
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -45,7 +45,7 @@ from sklearn.preprocessing import OneHotEncoder
 
 
 
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 import os
 import cv2
 from tensorflow.keras import optimizers
