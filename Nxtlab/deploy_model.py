@@ -27,8 +27,8 @@ from sklearn.metrics import roc_curve, auc
 import re
 
 
-from gensim.models import Word2Vec
-from gensim.models import KeyedVectors
+# from gensim.models import Word2Vec
+# from gensim.models import KeyedVectors
 #import pickle
 
 from tqdm import tqdm
