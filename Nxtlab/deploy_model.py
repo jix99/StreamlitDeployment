@@ -69,7 +69,7 @@ uploaded_data = st.file_uploader('test_data')
 # In[66]:
 
 
-X_train = pd.read_csv('X_train.csv')
+X_train = pd.read_csv('Nxtlab/X_train.csv')
 
 
 # In[12]:
