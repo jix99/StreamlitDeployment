@@ -151,7 +151,7 @@ if uploaded_data is not None:
     
     import keras
 
-    model = keras.models.load_model(r'C:\Users\goldr\Desktop\Nxtlab')
+    model = keras.models.load_model('Nxtlab/saved_model.pb')
 
 
     # In[76]:
