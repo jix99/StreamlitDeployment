@@ -62,7 +62,7 @@ import streamlit as st
 # In[79]:
 
 
-st.markdown("<h1 style='text-align: center; color: red;'>NXTLABS</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: red;'>NGL</h1>", unsafe_allow_html=True)
 uploaded_data = st.file_uploader('test_data')
 
 
